@@ -140,12 +140,41 @@
       <!-- Contact Form -->
            
 
-        <form action="https://formspree.io/f/xleynanz" method="POST">
-    <input type="text" placeholder="name" name="Name" class="box" style="background-color: rgba(0, 0, 0, 0.5);">
-    <input type="email" placeholder="email" name="Email" class="box" style="background-color: rgba(0, 0, 0, 0.5);">
-    <textarea name="Your whatsapp Group link" placeholder="Your Whatsapp group link" style="background-color: rgba(0, 0, 0, 0.5);" cols="30" rows="10"></textarea>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+        padding: 20px;
+    }
+
+    .box {
+        background-color: transparent;
+        border: 1px solid white; /* Add a white border */
+        color: white; /* Text color in white */
+        padding: 10px;
+        margin: 5px;
+        width: 100%; /* Equal width for all input fields */
+    }
+
+    .btn {
+        background-color: #007BFF; /* Change button background color if needed */
+        color: white; /* Change button text color if needed */
+        padding: 10px;
+        border: none;
+        width: auto;
+        cursor: pointer;
+    }
+</style>
+
+<form action="https://formspree.io/f/xleynanz" method="POST">
+    <input type="text" placeholder="Name" name="name" class="box">
+    <input type="email" placeholder="Email" name="email" class="box">
+    <textarea name="Your whatsapp Group link" placeholder="Your Whatsapp group link" rows="10" class="box"></textarea>
     <input type="submit" class="btn" value="Request Bot">
 </form>
+
 
            </div>
           <!-- Contact Form Ended -->
