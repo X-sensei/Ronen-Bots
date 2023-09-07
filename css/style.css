@@ -226,7 +226,7 @@ select {
   }
 }
 
-/* Aside */
+/* Aside 
 .aside {
   width: 270px;
   background-color: #fdf9ff;
@@ -289,7 +289,7 @@ select {
   border-radius: 5px;
   background-color: #fdf9ff;
   /* display: -ms-flexbox;
-    display: flex; */
+    display: flex; 
   display: none;
   -ms-flex-align: center;
   align-items: center;
@@ -361,7 +361,7 @@ select {
 .aside .copyright {
   font-size: 14px;
   color: #7d7d7d;
-}
+}*/
 /* Home */
 .home {
   min-height: 100vh;
