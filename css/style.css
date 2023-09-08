@@ -603,7 +603,7 @@ select {
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
   max-width: 33.33%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: -ms-flexbox;
   display: flex;
 }
@@ -656,14 +656,14 @@ select {
   margin: 0;
 }
 
-/* Portfolio Section  */
+/* Portfolio Section  
 
 .portfolio .container {
   padding-bottom: 40px;
 }
 
 .portfolio .portfolio-filter {
-  /* background-color: red; */
+  /* background-color: red; 
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
@@ -686,7 +686,7 @@ select {
   transition: all 0.3 ease;
 }
 .portfolio .portfolio-item {
-  /* background-color: red; */
+  /* background-color: red; 
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
@@ -788,7 +788,7 @@ select {
 .portfolio .portfolio-item .portfolio-info .icon .fa {
   line-height: 40px;
 }
-/* Portfolio Section End */
+ Portfolio Section End */
 
 /* Lightbox  */
 
@@ -913,12 +913,12 @@ select {
 
 /* Lightbox Ended */
 
-/* Blog Section started */
+/* Blog Section started 
 .blog .container {
   padding-bottom: 40px;
 }
 .blog .blog-item {
-  /* background-color: red; */
+  /* background-color: red; 
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -985,14 +985,14 @@ select {
   font-weight: 600;
 }
 
-/* Contact Section */
+Contact Section */
 
 .contact .contact-info-item {
   flex: 0 0 33.33%;
   -ms-flex: 0 0 33.33%;
   max-width: 33.33%;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 .contact .contact-info-item .icon {
   display: inline-block;
